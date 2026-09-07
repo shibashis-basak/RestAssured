@@ -1,0 +1,29 @@
+{
+  "customer": {
+    "id": 1001,
+    "name": "John",
+    "contact": {
+      "email": "john@test.com",
+      "phone": "9999999999"
+    }
+  },
+  "order": {
+    "orderId": "ORD001",
+    "items": [
+      {
+        "productId": "P100",
+        "quantity": 2,
+        "price": 500
+      },
+      {
+        "productId": "P200",
+        "quantity": 1,
+        "price": 1000
+      }
+    ],
+    "payment": {
+      "method": "CARD",
+      "status": "PENDING"
+    }
+  }
+}
